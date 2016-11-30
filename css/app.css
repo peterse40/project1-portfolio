@@ -7,7 +7,7 @@ GENERAL
 }
 
 .wrap {
-	width: 90%;
+	width: 100%;
 	max-width: 1100px;
 	margin: 0 auto;
 }
@@ -94,7 +94,7 @@ HERO
 
 .hero {
 	background-color: #999;
-	padding: 80px 0px;
+	padding: 80px;
 	height: auto;
 	background-image: url("../images/stardust.png");
 }
@@ -105,8 +105,8 @@ HERO
 }
 
 .wrap p {
-	color: rgba(255, 255, 255, 0.8);
-	max-width: 70%;
+	color: rgba(255, 255, 255, 1);
+	max-width: 100%;
 }
 
 .button.success {
@@ -121,9 +121,6 @@ h3 {
 }
 
 div {
-
-	text-align: justify;
-	text-justify: inter-word;
 	padding-right: 20px;
 }
 
@@ -131,7 +128,7 @@ div {
 MAIN SECTION
 ******************************************************************* */
 .main {
-	padding: 80px 0px;
+	padding: 60px 0px;
 	color: rgba(255,255,255,0.8);
 }
 
@@ -155,13 +152,6 @@ MAIN SECTION
 	margin-top: -1200px;
 }
 
-div {
-
-	text-align: justify;
-	text-justify: inter-word;
-	padding-right: 5px;
-}
-
 figcaption {
 
 	font-weight: bold;
@@ -179,6 +169,10 @@ FOOTER
 .footer {
 	background-color: #222;
 	padding: 80px 0px;
+}
+
+.column {
+	margin-top: 20px;
 }
 
 .column h4 {
