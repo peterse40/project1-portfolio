@@ -13,7 +13,7 @@ GENERAL
 }
 
 .off-canvas-wrapper {
-	background-color: #222;
+	background-color: #677;
 }
 
 /* ******************************************************************
@@ -36,17 +36,17 @@ NAV - MOBILE
 }
 
 #mobile-menu a {
-	color: rgba(255,255,255,0.6);
+	color: #804;
 	font-weight: bold;
 	line-height: 2;
 }
 
 #mobile-menu a:hover {
-	color: rgba(255,255,255,0.8);
+	color: #804;
 }
 
 .js-off-canvas-exit {
-	background: rgba(0,0,0,0.5);
+	background: #804;
 }
 
 /* ******************************************************************
@@ -54,19 +54,22 @@ NAV - DESKTOP
 ******************************************************************* */
 
 .concentration {
-	color: white;
+	color: #000;
 	font-style: italic;
 	font-size: 20px;
 }
 
 .nav-desktop {
-	background-color: #222;
+	background-color: #eee;
 	height: 80px;
+	position: fixed;
+	width: 100%;
 	padding: 0;
+	font-size: 1.5em;
 }
 
 .site-logo {
-	color: white;
+	color: #000;
 	line-height: 0px;
 	margin-top: 15px;
 }
@@ -81,11 +84,11 @@ NAV - DESKTOP
 	line-height: 80px;
 	padding-bottom: 0;
 	padding-top: 0;
-	color: white;
+	color: #000;
 }
 
 .menu > li > a:hover {
-	background-color: rgba(255, 255, 255, 0.1);
+	background-color: #804;
 }
 
 /* ******************************************************************
@@ -93,19 +96,19 @@ HERO
 ******************************************************************* */
 
 .hero {
-	background-color: #999;
+	background-color: #804;
 	padding: 80px;
 	height: auto;
 	background-image: url("../images/stardust.png");
 }
 
 .hero h1 {
-	color: rgba(255, 255, 255, 0.8);
-	max-width: 70%;
+	color: #804;
+	max-width: 100%;
 }
 
 .wrap p {
-	color: rgba(255, 255, 255, 1);
+	color: #eee;
 	max-width: 100%;
 }
 
@@ -116,7 +119,7 @@ HERO
 h3 {
 
 	font-weight: bold;
-	color: #868;
+	color: #804;
 	margin-bottom: 3px;
 }
 
@@ -129,7 +132,7 @@ MAIN SECTION
 ******************************************************************* */
 .main {
 	padding: 60px 0px;
-	color: rgba(255,255,255,0.8);
+	color: #000;
 }
 
 .resume-portfolio h4 {
@@ -158,17 +161,21 @@ figcaption {
 }
 
 label {
-	color: rgba(255,255,255,0.8);
+	color: #000;
 }
 
+.intro p{
+	color: #000;
+}
 
 /* ******************************************************************
 FOOTER
 ******************************************************************* */
 
 .footer {
-	background-color: #222;
-	padding: 80px 0px;
+	background-color: #eee;
+	padding: 60px 0px;
+	width: 110%;
 }
 
 .column {
@@ -176,33 +183,33 @@ FOOTER
 }
 
 .column h4 {
-	color: rgba(255, 255, 255, 0.8);
+	color: #000;
 	font-size: 1.3em;
 }
 
 .column hr {
-	border-color: rgba(255, 255, 255, 0.6);
+	border-color: #000;
 	margin: 10px 0;
 }
 
 .column a {
 	display: block;
-	color: rgba(255, 255, 255, 0.6);
+	color: #000;
 	font-size: 0.8em;
 }
 
 .column a {
 	display: block;
-	color: rgba(255, 255, 255, 0.6);
+	color: #000;
 }
 
 .column a span {
 	font-weight: bold;
-	color: rgba(255, 255, 255, 0.3);
+	color: #000;
 }
 
 .column > a:hover {
-	background-color: rgba(255, 255, 255, 0.1);
+	background-color: #000;
 }
 
 
