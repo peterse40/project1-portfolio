@@ -13,7 +13,7 @@ GENERAL
 }
 
 .off-canvas-wrapper {
-	background-color: #677;
+	background-color: aliceblue;
 }
 
 /* ******************************************************************
@@ -36,17 +36,17 @@ NAV - MOBILE
 }
 
 #mobile-menu a {
-	color: #804;
+	color: deepskyblue;
 	font-weight: bold;
 	line-height: 2;
 }
 
 #mobile-menu a:hover {
-	color: #804;
+	color: deepskyblue;
 }
 
 .js-off-canvas-exit {
-	background: #804;
+	background: aliceblue;
 }
 
 /* ******************************************************************
@@ -69,7 +69,7 @@ NAV - DESKTOP
 }
 
 .site-logo {
-	color: #000;
+	color: rgba(0,0,0,0.7);
 	line-height: 0px;
 	margin-top: 15px;
 }
@@ -84,11 +84,11 @@ NAV - DESKTOP
 	line-height: 80px;
 	padding-bottom: 0;
 	padding-top: 0;
-	color: #000;
+	color: rgba(0,0,0,0.7);
 }
 
 .menu > li > a:hover {
-	background-color: #804;
+	background-color: deepskyblue;
 }
 
 /* ******************************************************************
@@ -96,7 +96,6 @@ HERO
 ******************************************************************* */
 
 .hero {
-	background-color: #804;
 	padding: 80px;
 	height: auto;
 	background-image: url("../images/stardust.png");
@@ -107,10 +106,15 @@ HERO
     max-width: 100%;
     padding-top: 19px;
     font-weight: bold;
+} 
+
+.wrap .intro p {
+	color: rgba(225,225,225,0.5);
+	max-width: 100%;
 }
 
 .wrap p {
-	color: #eee;
+	color: deepskyblue;
 	max-width: 100%;
 }
 
@@ -134,7 +138,7 @@ MAIN SECTION
 ******************************************************************* */
 .main {
 	padding: 60px 0px;
-	color: #000;
+	color: rgba(0,0,0,0.7);
 }
 
 .resume-portfolio h4 {
@@ -163,11 +167,7 @@ figcaption {
 }
 
 label {
-	color: #000;
-}
-
-.intro p{
-	color: #000;
+	color: rgba(0,0,0,0.7);
 }
 
 /* ******************************************************************
@@ -175,7 +175,7 @@ FOOTER
 ******************************************************************* */
 
 .footer {
-	background-color: #eee;
+	
 	padding: 60px 0px;
 	width: 110%;
 }
@@ -212,9 +212,8 @@ FOOTER
 }
 
 .column > a:hover {
-	background-color: #804;
+	background-color: deepskyblue;
 }
-
 
 /* ******************************************************************
 MEDIA QUERY
